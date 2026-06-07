@@ -1,9 +1,9 @@
 {
   "package": "tomato_timer",
   "name": "番茄钟",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "author": "Anki用户",
-  "description": "Anki番茄钟插件，在复习时显示倒计时和卡片统计，提高学习效率",
+  "description": "Anki番茄钟插件，复习时显示倒计时与卡片统计。1.5 重构 UI:深色卡片、彩色 chip、渐变进度条，参考 momentum_anki 风格。",
   "homepage": "https://github.com/yourusername/tomato_timer",
   "license": "GNU GPL v3"
 }
