@@ -3,7 +3,7 @@
   "name": "番茄钟",
   "version": "1.5.0",
   "author": "Anki用户",
-  "description": "Anki番茄钟插件，复习时显示倒计时与卡片统计。1.5 重构 UI:深色卡片、彩色 chip、渐变进度条，参考 momentum_anki 风格。",
-  "homepage": "https://github.com/yourusername/tomato_timer",
+  "description": "Anki番茄钟插件,复习时显示倒计时与卡片统计。v1.5.0:深色卡片 UI、64px 大字计时器、模式 chip、渐变进度条,Anki 25 兼容。详见 README.md。",
+  "homepage": "https://gitee.com/harel-zhao/anki-addons-tomato",
   "license": "GNU GPL v3"
 }
