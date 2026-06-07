@@ -1361,18 +1361,13 @@ def init_plugin():
         card_stats_display_action.triggered.connect(lambda: toggle_card_stats_display())
         tomato_menu.addAction(card_stats_display_action)
 
-        # 设置菜单项
-        settings_action = QAction("⚙️  番茄钟设置", mw)
-        settings_action.triggered.connect(show_settings)
-
+        # 只把子菜单挂到工具菜单;设置入口已移除(show_settings / TomatoSettingsDialog
+        # 仍保留,如需再加回来只需重新 addAction 一个触发它)
         if hasattr(mw, 'form') and hasattr(mw.form, 'menuTools'):
             mw.form.menuTools.addMenu(tomato_menu)
-            mw.form.menuTools.addSeparator()
-            mw.form.menuTools.addAction(settings_action)
             log("菜单已添加到工具菜单")
         else:
             mw.menuBar().addMenu(tomato_menu)
-            mw.menuBar().addAction(settings_action)
             log("菜单已添加到主菜单栏")
 
         # 延迟初始化
